@@ -5,9 +5,6 @@ main {
   color: var(--white);
   backdrop-filter: blur(15px);
 }
-hr {
-  border: 1px solid var(--white);
-}
 
 .pathing {
   display: flex;
@@ -54,6 +51,11 @@ hr {
   border: 3px solid var(--secondary-green);
   border-radius: 5px;
   margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+hr:hover {
+  border: 3px solid var(--white);
 }
 
 h4,
@@ -80,6 +82,10 @@ li {
 .ubi a {
   transform: rotate(180deg);
   scale: 1;
+}
+
+.hide {
+  display: none;
 }
 
 i {

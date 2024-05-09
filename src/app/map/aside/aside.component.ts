@@ -28,4 +28,9 @@ export class AsideComponent {
   get isLogged(): boolean {
     return this.sharedService.isLogged;
   }
+
+  hideAside() {
+    let aside = document.getElementById('aside');
+    aside?.classList.toggle('hide');
+  }
 }

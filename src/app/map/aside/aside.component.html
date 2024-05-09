@@ -1,5 +1,5 @@
 <main>
-  <hr />
+  <hr (click)="hideAside()" />
 
   <h4>
     <ng-container *ngIf="this.isLogged; else noCarAvailable">
@@ -9,26 +9,25 @@
   </h4>
 
   <div class="pathing">
-    <div class="ubi">
-      <input
-        type="text"
-        placeholder="Ubicación"
-        value="Tu Ubicacion"
-        disabled
-      />
-      <a href=""><i class="bi bi-arrow-90deg-up arrow"></i></a>
-    </div>
-    <ul>
+    <div id="aside">
+      <div class="ubi">
+        <input
+          type="text"
+          placeholder="Ubicación"
+          value="Tu Ubicacion"
+          disabled
+        />
+        <a href=""><i class="bi bi-arrow-90deg-up arrow"></i></a>
+      </div>
+      <ul>
+        <li *ngFor="let calle of routes; let i = index; let isFirst = first">
+          <input type="text" [value]="calle" disabled />
+        </li>
+      </ul>
 
-      <li *ngFor="let calle of routes; let i = index; let isFirst = first">
-        <input type="text" [value]="calle" disabled />
-      </li>
-
-    
-    </ul>
-
-    <div class="plus">
-      <a href=""><i class="bi bi-plus-circle"></i></a>
+      <div class="plus">
+        <a href=""><i class="bi bi-plus-circle"></i></a>
+      </div>
     </div>
 
     <a class="startRoute" href="">Comenzar Ruta</a>
