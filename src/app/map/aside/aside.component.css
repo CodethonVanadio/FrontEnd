@@ -4,8 +4,10 @@ main {
   border: 2px solid var(--white);
   color: var(--white);
   backdrop-filter: blur(15px);
+
   max-height: 80vh;
   overflow-y: auto;
+
 }
 
 .pathing {
@@ -62,6 +64,10 @@ hr {
 
 hr:hover{
   border: 3px solid white;
+
+hr:hover {
+  border: 3px solid var(--white);
+
 }
 
 h4,
@@ -88,6 +94,10 @@ li {
 .ubi a {
   transform: rotate(180deg);
   scale: 1;
+}
+
+.hide {
+  display: none;
 }
 
 i {

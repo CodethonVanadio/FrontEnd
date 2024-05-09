@@ -1,5 +1,7 @@
 <main>
+
   <hr (click)="esconderAside()"/>
+
 
   <h4>
     <ng-container *ngIf="this.isLogged; else noCarAvailable">
@@ -9,17 +11,22 @@
   </h4>
 
   <div class="pathing">
+
     <div id="aside" >
       <h4 class="border-none-title">Ubicación actual</h4>
+
       <div class="ubi">
         <input
           type="text"
           placeholder="Ubicación"
+
           [value]="nombreUbicacionActual"
+
           disabled
         />
         <a href=""><i class="bi bi-arrow-90deg-up arrow"></i></a>
       </div>
+
 
       <h4 class="border-none-title">Paradas</h4>
 
@@ -41,6 +48,7 @@
           </li>
         </ul>
       </div>
+
 
       <ul>
         <li *ngFor="let calle of routes; let i = index; let isFirst = first">

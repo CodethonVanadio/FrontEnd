@@ -27,6 +27,7 @@ export class AsideComponent implements OnInit{
   @Input() latitud2: any = '';
   @Input() nombreCalle: any = '';
   @Input() routes: any = '';
+
   query = '';
   locations: any[] = [];
   selectedLocation: string = '';
@@ -116,9 +117,19 @@ export class AsideComponent implements OnInit{
 
   get tipoCoche(): string {
     return this.sharedService.tipoCoche;
+
+  tipoCoche: string = '';
+  ngOnInit(): void {
+    this.tipoCoche = this.sharedService.tipoCoche;
+
   }
 
   get isLogged(): boolean {
     return this.sharedService.isLogged;
+  }
+
+  hideAside() {
+    let aside = document.getElementById('aside');
+    aside?.classList.toggle('hide');
   }
 }
