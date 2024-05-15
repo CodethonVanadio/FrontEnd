@@ -1,0 +1,88 @@
+{
+  "hash": "f27ed35d",
+  "configHash": "6be3c7c9",
+  "lockfileHash": "dda520e1",
+  "browserHash": "88704265",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "f4e856fa",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "8ea45ed3",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "d2cbda11",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "637058e5",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "fc5a89cd",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "9c110a82",
+      "needsInterop": false
+    },
+    "@asymmetrik/ngx-leaflet": {
+      "src": "../../../../../node_modules/@asymmetrik/ngx-leaflet/fesm2022/asymmetrik-ngx-leaflet.mjs",
+      "file": "@asymmetrik_ngx-leaflet.js",
+      "fileHash": "032e9fc4",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "ead0d80a",
+      "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../../../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "e05caba1",
+      "needsInterop": true
+    },
+    "leaflet-routing-machine": {
+      "src": "../../../../../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.js",
+      "file": "leaflet-routing-machine.js",
+      "fileHash": "203e567f",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-4V77C2EB": {
+      "file": "chunk-4V77C2EB.js"
+    },
+    "chunk-T3N277TV": {
+      "file": "chunk-T3N277TV.js"
+    },
+    "chunk-SP4FSO3D": {
+      "file": "chunk-SP4FSO3D.js"
+    },
+    "chunk-KG3G4SVX": {
+      "file": "chunk-KG3G4SVX.js"
+    },
+    "chunk-X47HD52R": {
+      "file": "chunk-X47HD52R.js"
+    },
+    "chunk-EHLZM3EC": {
+      "file": "chunk-EHLZM3EC.js"
+    }
+  }
+}
